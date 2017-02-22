@@ -1,0 +1,57 @@
+body, html
+{
+	background-color: #EDD4FF;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+
+#container
+{
+	margin: 0 auto;
+	text-align: left;
+	max-width: 1037px;
+	height: 100%;
+	background-color: #F3FAFF;
+	border: 1px solid #999999;
+}
+
+
+#header
+{
+	background-image: url(images/header.jpg);
+	background-position: center;
+	height: 197px;
+}
+
+#top_menu
+{
+	background-color: #E1C435;
+	height: 37px;
+}
+
+
+#content
+{
+	height: 100%;
+	margin: 0px;
+}
+
+
+#clear
+{
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+	clear: both;
+}
+
+#footer
+{
+	background-color: #C5AC2E;
+	height: 25px;
+	padding-top: 0px;
+	text-align: center;
+}

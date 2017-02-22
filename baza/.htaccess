@@ -1,0 +1,7 @@
+AuthName "Доступ к Базе Данных участников"
+AuthType Basic  
+Require valid-user
+AuthUserFile /home/admin/web/flashmob.tom.ru/public_html/baza/.htpasswd 
+<Files .htpasswd>
+   deny from all  #запрет доступа из браузера к .htpasswd
+</Files>
